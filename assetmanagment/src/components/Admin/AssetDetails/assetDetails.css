@@ -1,0 +1,46 @@
+.assethead {
+    font-size: 40px;
+    font-family: "bold";
+}
+
+
+
+/* assetDetails.css */
+td.d-flex {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+td.d-flex button {
+    flex: 1;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+td.d-flex .btn-primary1 {
+    background-color: #0b5663;
+    border: none;
+    color: white;
+
+}
+
+td.d-flex .btn-danger2 {
+    background-color: #bb091a;
+    border: none;
+    color: white;
+}
+
+td.d-flex .btn-success3 {
+    background-color: #07113f;
+    border: none;
+    color: white;
+    padding: 2px 16px;
+}
+
+td.d-flex button:hover {
+    filter: brightness(90%);
+}

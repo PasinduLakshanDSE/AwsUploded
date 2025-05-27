@@ -1,0 +1,60 @@
+/* Full Page Background Styling */
+
+  
+  /* Ensure the rest of your container remains styled properly */
+  .row {
+    margin: 20px 0;
+  }
+  
+  .col-md-12 {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for the table */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-color{
+    background-color: rgb(250, 39, 39);
+  }
+  
+  .btn-color:hover{
+    background-color: rgb(250, 201, 39);
+  }
+  .text-danger1{
+    font-size: 12px;
+    color: red;
+  }
+
+  .otp{
+    font-size: 13px;
+  }
+  .activeOTP{
+    font-size: 12px;
+    color: rgb(7, 93, 119);
+
+  }
+
+  
+
+
+
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #07585e;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #d1ecf1;
+  }

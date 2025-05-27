@@ -1,0 +1,74 @@
+.asset-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 10px;
+  }
+  
+  .asset-table th, .asset-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .asset-table th {
+    background-color: #004085;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+
+  
+  
+  .asset-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .asset-table tr:hover {
+    background-color: #d1ecf1;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin: 40px;
+  }
+  
+  .filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .download-btn1{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #034252;
+  }
+
+  .download-container {
+    text-align: left;
+    margin: 5px 0;
+    width: 500px;
+    margin-left: 30px;
+  }
+  
+  .download-btn1 {
+    padding: 15px 15px;
+    background-color: #0a686b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 20px;
+  }
+  
+  .download-btn1:hover {
+    background-color: #032a30;
+  }
+  
+  
+ 
+  

@@ -1,0 +1,91 @@
+/* Main container to center the content */
+.MainView {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #008080, #004d40); /* Smooth gradient */
+    
+}
+
+
+.MainView::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 0.5 = 50% transparency */
+    z-index: 1;
+}
+/* Styled card container */
+/* Ensure the content appears above the overlay */
+
+
+/* Styled card container */
+.View {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b4c55;
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.View:hover {
+    transform: scale(1.03);
+}
+
+/* QR Header */
+.headQR {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Asset details container */
+.details {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.details p {
+    font-size: 18px;
+    color: #0c0b0b;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.details strong {
+    color: #004d40;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .View {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .headQR {
+        font-size: 28px;
+    }
+
+    .details p {
+        font-size: 16px;
+    }
+}

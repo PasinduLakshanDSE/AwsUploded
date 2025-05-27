@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+
+.title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 210px;
+  }
+  
+  .dashboard-header {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .dashboard-header p {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .dashboard-cards1 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-card1 {
+    flex: 1;
+    min-width: 200px;
+    color: white;
+    padding: 45px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-left: 30px;
+    margin-right: 30px;
+   
+    
+  }
+  
+  .card-content1 h2 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+
+  }
+  
+  .card-content1 p {
+    margin: 5px 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  .card-footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card-footer a:hover {
+    text-decoration: underline;
+  }
+
+  .si{
+   font-size: 50px;
+   color: rgb(244, 244, 250);
+  }
+  

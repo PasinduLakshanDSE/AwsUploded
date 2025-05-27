@@ -1,0 +1,6 @@
+# Ignore Git pack files
+*.pack
+*.idx
+
+
+node_modules

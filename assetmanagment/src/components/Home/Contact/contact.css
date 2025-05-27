@@ -1,0 +1,78 @@
+/* Contact.css */
+
+
+  
+.contact-box {
+    background: rgba(39, 79, 56, 0.638);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(15, 72, 15, 0.786);
+    width: 700px;
+    
+    
+   
+  }
+  
+  .contact-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+  }
+  
+  .contact-input {
+  
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #b2191955;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 15px;
+  }
+  
+  .contact-textarea {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #dbd3d3;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Optional: Full height of the viewport */
+}
+
+.contact-button {
+    width: 75%;
+    max-width: 300px; /* Set a max width to avoid stretching */
+    background-color: #075f75d0;
+    color: rgb(234, 229, 229);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+  
+  
+  .contact-button:hover {
+    background-color: #08286ce1;
+  }
+  
+  .contact-link {
+    display: block;
+    text-align: center;
+    color: #e2e5e9;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,22 @@
+/* Full Page Background Styling */
+
+  
+  /* Ensure the rest of your container remains styled properly */
+  .row {
+    margin: 20px 0;
+  }
+  
+  .col-md-12 {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for the table */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-color{
+    background-color: rgb(250, 39, 39);
+  }
+  
+  .btn-color:hover{
+    background-color: rgb(250, 201, 39);
+  }

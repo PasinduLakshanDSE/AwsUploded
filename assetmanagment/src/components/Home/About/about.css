@@ -1,0 +1,122 @@
+/* About.css */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+   
+  }
+  
+  .about-content {
+    background: rgb(9, 126, 81);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(123, 126, 125);
+    max-width: 700px;
+    text-align: center;
+    margin: 30px;
+  }
+  .about-team {
+    display: flex;
+    flex-wrap: wrap;  /* Ensures responsiveness */
+    justify-content: center;  /* Centers the cards */
+    gap: 20px;  /* Adds space between cards */
+}
+
+.team-member {
+    width: 155px;  /* Set a fixed width */
+    height: 150px;  /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+  .gradient-text {
+    background: linear-gradient(45deg, #080e12, #040404);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about-subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: slide-in-left 1s ease-in-out;
+  }
+  
+  .colorful-list {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;  /* Center horizontally */
+}
+
+.colorful-list li {
+    font-size: 16px;
+    padding: 10px;
+    background: #467f8f6b;
+    border-radius: 8px;
+    margin: 5px 0;
+    width: 500px;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;  /* Center text */
+    display: flex;  
+    align-items: center;  /* Center vertically */
+    justify-content: center;  /* Center text horizontally */
+}
+
+  .about-list {
+    list-style-type: none;  /* Removes bullet points */
+    padding: 0;  /* Removes default padding */
+    margin: 0;  /* Adjust margin if needed */
+  }
+  
+  
+  .colorful-list li:hover {
+    background: #154768;
+    transform: scale(1.05);
+  }
+  
+  .about-team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .colorful-card {
+    background: linear-gradient(135deg, #2e615bc3, #2f6f64ab);
+    padding: 1px;
+    border-radius: 30px;
+    transition: all 1s ease-in-out;
+
+  }
+  
+  .colorful-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.44);
+  }
+  
+  .vibrant-link {
+    display: block;
+    margin-top: 20px;
+    color: #040202;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .vibrant-link:hover {
+    color: #090908;
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes slide-in-left {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
