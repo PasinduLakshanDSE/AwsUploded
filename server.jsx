@@ -9,7 +9,7 @@ const sendMail = require("../FirstProjects/assetmanagment/src/components/Home/Em
 require("dotenv").config();
 
 
-app.use(bodyParser.json()); // Parse incoming JSON data
+app.use(bodyParser.json()); 
 app.use(cors()); // Enable CORS
 
 // Database configuration
