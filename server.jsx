@@ -4,7 +4,7 @@ const app = express();
 require("dotenv").config();
 const cors = require("cors");
 
-const sendMail = require("../FirstProjects/assetmanagment/src/components/Home/Email/emailService.jsx");
+//const sendMail = require("../FirstProjects/assetmanagment/src/components/Home/Email/emailService.jsx");
 
 require("dotenv").config();
 
