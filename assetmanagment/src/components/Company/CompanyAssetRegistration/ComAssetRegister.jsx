@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { QRCode } from "react-qrcode-logo";
-import html2canvas from "html2canvas";
+//import html2canvas from "html2canvas";
 import "./comAssetRegister.css";
 import axios from "axios";
-import { model } from "mongoose";
+//import { model } from "mongoose";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link} from "react-router-dom";
 
